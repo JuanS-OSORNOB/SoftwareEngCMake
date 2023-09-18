@@ -1,3 +1,4 @@
-C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/CMakeFiles/HelloWorld.dir
 C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/src/basic/CMakeFiles/basic.dir
+C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/mains/CMakeFiles/HelloWorld.dir

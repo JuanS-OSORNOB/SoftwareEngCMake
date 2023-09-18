@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ecanc\Documents\GitHub\SoftwareEngCMake\src\basic\message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ecanc\Documents\GitHub\SoftwareEngCMake\include\basic\message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ecanc\Documents\GitHub\SoftwareEngCMake\src\basic\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{38F1C30F-EE4B-3439-BF50-F6EF94C8DDE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8E81F267-CF4A-3C7B-B3BC-4C9D7C54EAF7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
