@@ -1,0 +1,10 @@
+^C:\USERS\ECANC\DOCUMENTS\GITHUB\SOFTWAREENGCMAKE\BUILD\CMAKEFILES\B3AD1F381AEF47EBEBA7F885C4BA1E7A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ecanc/Documents/GitHub/SoftwareEngCMake -BC:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/HelloProj.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
