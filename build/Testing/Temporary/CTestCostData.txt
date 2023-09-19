@@ -1,0 +1,5 @@
+test_hello 0 0
+test_version 0 0
+---
+test_hello
+test_version

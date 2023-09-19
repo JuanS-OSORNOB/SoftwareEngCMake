@@ -1,4 +1,10 @@
+C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/CMakeFiles/RUN_TESTS.dir
 C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/CMakeFiles/ZERO_CHECK.dir
 C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/src/basic/CMakeFiles/basic.dir
+C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/src/basic/CMakeFiles/RUN_TESTS.dir
 C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/mains/CMakeFiles/HelloWorld.dir
+C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/mains/CMakeFiles/RUN_TESTS.dir
+C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/CMakeFiles/test_hello.dir
+C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/CMakeFiles/test_version.dir
+C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/CMakeFiles/RUN_TESTS.dir

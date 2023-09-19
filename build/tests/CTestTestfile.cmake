@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests
+# Build directory: C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(test_hello "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_hello.exe")
+  set_tests_properties(test_hello PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;3;add_test;C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(test_hello "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Release/test_hello.exe")
+  set_tests_properties(test_hello PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;3;add_test;C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(test_hello "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/MinSizeRel/test_hello.exe")
+  set_tests_properties(test_hello PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;3;add_test;C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(test_hello "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/RelWithDebInfo/test_hello.exe")
+  set_tests_properties(test_hello PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;3;add_test;C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;0;")
+else()
+  add_test(test_hello NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(test_version "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_version.exe")
+  set_tests_properties(test_version PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;7;add_test;C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(test_version "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Release/test_version.exe")
+  set_tests_properties(test_version PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;7;add_test;C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(test_version "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/MinSizeRel/test_version.exe")
+  set_tests_properties(test_version PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;7;add_test;C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(test_version "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/RelWithDebInfo/test_version.exe")
+  set_tests_properties(test_version PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;7;add_test;C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/tests/CMakeLists.txt;0;")
+else()
+  add_test(test_version NOT_AVAILABLE)
+endif()

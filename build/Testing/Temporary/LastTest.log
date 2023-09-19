@@ -1,0 +1,35 @@
+Start testing: Sep 18 17:34 Romance Daylight Time
+----------------------------------------------------------
+Unable to find executable: C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_hello.exe
+1/2 Testing: test_hello
+1/2 Test: test_hello
+Command: ""
+Directory: C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests
+"test_hello" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_hello" end time: Sep 18 17:34 Romance Daylight Time
+"test_hello" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_version.exe
+2/2 Testing: test_version
+2/2 Test: test_version
+Command: ""
+Directory: C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests
+"test_version" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_version" end time: Sep 18 17:34 Romance Daylight Time
+"test_version" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 18 17:34 Romance Daylight Time

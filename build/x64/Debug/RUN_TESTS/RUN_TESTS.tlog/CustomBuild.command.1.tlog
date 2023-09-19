@@ -1,0 +1,10 @@
+^C:\USERS\ECANC\DOCUMENTS\GITHUB\SOFTWAREENGCMAKE\BUILD\CMAKEFILES\B3AD1F381AEF47EBEBA7F885C4BA1E7A\RUN_TESTS_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

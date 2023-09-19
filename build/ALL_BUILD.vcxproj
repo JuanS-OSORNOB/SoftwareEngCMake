@@ -181,6 +181,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{3E804036-463E-3642-95CE-D612319FAF00}</Project>
       <Name>basic</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\ecanc\Documents\GitHub\SoftwareEngCMake\build\tests\test_hello.vcxproj">
+      <Project>{A2BDEAF5-1ABD-386E-B0CC-555016485D6B}</Project>
+      <Name>test_hello</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ecanc\Documents\GitHub\SoftwareEngCMake\build\tests\test_version.vcxproj">
+      <Project>{BA8D5ED4-4879-32B4-BB2B-ECB24F84764C}</Project>
+      <Name>test_version</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,45 @@
+﻿  1>
+  Test project C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build
+      Start 1: test_hello
+  Could not find executable C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_hello.exe
+  Looked in the following places:
+  C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_hello.exe
+  C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_hello.exe.exe
+  C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/Debug/test_hello.exe
+  C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/Debug/test_hello.exe.exe
+  Debug/C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_hello.exe
+  Debug/C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_hello.exe.exe
+  Unable to find executable: C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_hello.exe
+  1/2 Test #1: test_hello .......................***Not Run   0.00 sec
+      Start 2: test_version
+  Could not find executable C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_version.exe
+  Looked in the following places:
+  C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_version.exe
+  C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_version.exe.exe
+  C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/Debug/test_version.exe
+  C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/Debug/test_version.exe.exe
+  Debug/C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_version.exe
+  Debug/C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_version.exe.exe
+  Unable to find executable: C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/Debug/test_version.exe
+  2/2 Test #2: test_version .....................***Not Run   0.00 sec
+  
+  0% tests passed, 2 tests failed out of 2
+  
+  Total Test time (real) =   0.04 sec
+  
+  The following tests FAILED:
+  	  1 - test_hello (Not Run)
+  	  2 - test_version (Not Run)
+  Errors while running CTest
+  Output from these tests are in: C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/Testing/Temporary/LastTest.log
+  Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(161,5): error MSB3073: The command "setlocal
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(161,5): error MSB3073: "C:\Program Files\CMake\bin\ctest.exe" --force-new-ctest-process -C Debug
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(161,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(161,5): error MSB3073: :cmEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(161,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(161,5): error MSB3073: :cmErrorLevel
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(161,5): error MSB3073: exit /b %1
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(161,5): error MSB3073: :cmDone
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(161,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(161,5): error MSB3073: :VCEnd" exited with code 8.

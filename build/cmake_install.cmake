@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/src/basic/cmake_install.cmake")
   include("C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/mains/cmake_install.cmake")
+  include("C:/Users/ecanc/Documents/GitHub/SoftwareEngCMake/build/tests/cmake_install.cmake")
 
 endif()
 
